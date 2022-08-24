@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+          rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+           crossorigin="anonymous">
+</head>
+<style>
+        h1{
+            font:30px sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        #grid1{
+          border:1px solid red;
+          width:80%;
+          margin-left: 5%;
+          display: grid;
+          grid-template-columns: repeat(6,1fr);  
+          /* gap:20px; */
+          /* justify-content: space-between; */
+        }
+        #grid1>div{
+            border:1px solid red;
+            width:150px;
+            height:50px;
+            font: 15px sans-serif;
+            border-radius: 5px;
+            text-align:center;
+            margin:15px 0px 15px 5px;
+            padding: 15px 0px 0px 0px;
+            display: grid;
+            justify-items: center;
+            
+        }
+        .grid2{
+            border:1px solid red;
+            margin-top: 20px;
+            width:90%;
+            margin-left: 5%;
+            display: grid;
+            grid-template-columns:60% 40%;
+            grid-template-rows: 800px;
+        }
+        .grid2 div{
+            background-color: rgb(238,238,238);
+            text-align: center;
+        }
+       
+        .grid2 div img {
+            border: 1px solid red;
+            height:800px;
+            width:800px;
+        }
+      
+        .grid2 div h2{
+            margin-top: 150px;
+            margin-bottom: 80px;
+            font:25px sans-serif;
+            color: black;
+        } 
+        .grid2 div p{
+            font:20px sans-serif;
+         padding: 0px 10px 0px 10px;
+        }
+        .grid2 div p:last-child{
+            margin-top: 300px;
+            margin-left: -150px;
+            font:17px Poppins,Poppins-Hindi,sans-serif;
+            color:#757575;
+            /* color:#757575; */
+        }
+        span{
+            color:#EF5C75
+        }
+         /* #last{
+
+         } */
+         .grid3{
+            border:1px solid red;
+            margin-top: 20px;
+            width:90%;
+            
+            margin-left: 5%;
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            grid-template-rows: 500px;
+            gap:30px;
+         }
+         .grid3 div{
+            border:1px solid red;
+            text-align: center;
+         }
+         .grid3 div img{
+             width:100%;
+             height:400px;
+         }
+         p>a{
+            /* border:1px solid red; */
+            font: 24px Poppins,Poppins-Hindi,sans-serif;
+           
+            /* margin-left: 5px; */
+            color: black;
+            text-decoration: none;
+            /* border-bottom: none; */
+         }
+         .last{
+            font:17px Poppins,Poppins-Hindi,sans-serif;
+            color:#757575;
+            margin-left: 30px;
+         }
+
+         .grid4{
+            border:1px solid red;
+            margin-top: 20px;
+            width:90%;
+            margin-left: 5%;
+            display: grid;
+            grid-template-columns:45% 55%;
+            grid-template-rows: 800px;
+        }
+        .grid4 div{
+            border:1px solid red;
+            background-color: rgb(238,238,238);
+            text-align: center;
+            /* padding:0px 10px 0px 10px; ; */
+        }
+       
+        .grid4 div img {
+            border: 1px solid red;
+            height:800px;
+            width:820px;
+        }
+      
+        .grid4 div h2{
+            margin-top: 150px;
+            margin-bottom: 80px;
+            font:25px sans-serif;
+            color: black;
+        } 
+        .grid4 div p{
+            font:20px sans-serif;
+            padding: 0px 5px 0px 5px;
+        }
+        .grid4 div p:last-child{
+            margin-top: 300px;
+            margin-left: -150px;
+            font:17px Poppins,Poppins-Hindi,sans-serif;
+            color:#757575;
+            /* color:#757575; */
+        }
+        span{
+            color:#EF5C75
+        }
+</style>
+<body>
+    <h1>HEALTH AND WELLNESS </h1>
+    <div id="grid1">
+        <div>Health and Disease</div>
+        <div>Weight Gain</div>
+        <div>Ayurveda</div>
+        <div>Nutrition</div>
+        <div>Healthy Food</div>
+        <div>Diet Tips</div>
+        <div>Yoga</div>
+        <div>Weight Loss</div>
+        <div>Hoe Remedies</div>
+        <div>Ingredients</div>
+    </div>
+    <div class="grid2">
+        <div><img src="https://cdn2.stylecraze.com/wp-content/uploads/2015/04/8-Natural-Remedies-For-Ear-Drainage-720x810.jpg.webp" alt=""></div>
+        <div> 
+            <h2>8 Natural Remedies For Ear Drainage</h2>
+            <p>Ear drainage or otorrhea causes liquid discharge from </p>
+            <p>the affected ear. Here, we have listed the home</p> 
+            <p>  remedies for ear drainage. The issue of ear drainage is</p>
+             <p> genuine, and if it is not addressed right away, it may become a […]</p>  
+      
+  
+            <p >Medically Reviewed by <span class="span">Dr. Zeel Gandhi</span> , BAMS</p>
+            
+        </div>
+    </div>
+     <div class="grid3">
+        <div>
+           <img src="https://cdn2.stylecraze.com/wp-content/uploads/2015/04/10-Best-Ways-To-Get-Rid-Of-Popping-Ears-Prevention-Tips.jpg.webp" alt=""> 
+           <p> <a href="https://www.stylecraze.com/articles/home-remedies-to-treat-popping-ears/">Ear Popping: 10 Home Remedies And Tips To Prevent It</a> </p>
+           <p class="last">Medically Reviewed by <span id="span">Dr. Zeel Gandhi</span> , BAMS</p>
+        </div>
+        <div> 
+            <img src="https://cdn2.stylecraze.com/wp-content/uploads/2014/03/How-To-Get-Rid-Of-Hives.jpg.webp" alt=""> 
+            <p> <a href="https://www.stylecraze.com/articles/effective-home-remedies-for-hives/">10 Home Remedies For Hives And Treatment</a> </p>
+            <p class="last">Medically Reviewed by <span id="span">Dr. Zeel Gandhi</span> , BAMS</p>
+        </div>
+        <div>
+            <img src="https://cdn2.stylecraze.com/wp-content/uploads/2022/02/Sour-Cream-Nutritional-Value-Benefits-And-Tasty-Recipes-Banner.jpg.webp" alt=""> 
+            <p> <a href="https://www.stylecraze.com/articles/sour-cream-nutrition/">
+                Sour Cream: Nutritional Value, Benefits, And Tasty Recipes</a> </p>
+            <p class="last">Medically Reviewed by <span >Dr. Zeel Gandhi</span> , BAMS</p>
+        </div>
+     </div>
+     <div class="grid4">
+        <div>
+            <h2>Agave Syrup: Nutrition, Health Benefits, And Side Effects</h2>
+            <p>In the quest of leading a healthy lifestyle, a sizable section of</p>
+            <p>people tend to cut or substitute sugar from their diets. Those who</p>
+            <p>are looking for a substitute, often lean towards sweetening</p>
+            <p>ingredients like maple syrup, honey, jaggery, and […]</p>
+            <p class="last">Medically Reviewed by <span >Dr. Somi Igbene</span> , PhD, ANutr</p>
+        </div>
+       <div>
+        <img src="https://cdn2.stylecraze.com/wp-content/uploads/2022/01/All-You-Need-To-Know-About-Agave-Syrup.jpg.webp" alt="">
+      </div>
+
+     </div>
+</body>
+</html>

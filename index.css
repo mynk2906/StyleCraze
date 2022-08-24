@@ -1,8 +1,8 @@
-html{font-size: 6px;}
+html{font-size: 14px;}
 .navbar-Div-1{
     /* border: 1px solid; */
     margin-top: 10px;
-    text-align: end;
+    /* text-align: end; */
 }
 .navbar-logo{
     /* border: 1px solid red; */
@@ -50,8 +50,10 @@ html{font-size: 6px;}
     display: inline-block;
 }   
 .navbar-lower-section{
-    text-align: end;
+    /* text-align: end; */
     cursor: pointer;
+    /* text-align: center; */
+    
 }
 .navbar-hover-top-section{
     /* border: 1px solid; */
@@ -100,7 +102,7 @@ html{font-size: 6px;}
 }
 .navbar-second-part>ul>li p{
     width: 75%;
-    font-size: 2.3rem;
+    font-size: 1rem;
     /* border: 1px solid; */
     box-sizing: border-box;
 }
@@ -109,45 +111,5 @@ html{font-size: 6px;}
 
 
 
-
-
-
-
-
-@media all and (min-width: 50px)   {  body  { font-size:0.1em;  } .navbar-lower-section ul li{padding: 0 4px;letter-spacing: 0;}}
-@media all and (min-width: 100px)  {  body  { font-size:0.2em;  } .navbar-lower-section ul li{padding: 0 4px;letter-spacing: 0;}}
-@media all and (min-width: 200px)  {  body  { font-size:0.4em;  } .navbar-lower-section ul li{padding: 0 4px;letter-spacing: 0;}}
-@media all and (min-width: 300px)  {  body  { font-size:0.6em;  } .navbar-lower-section ul li{padding: 0 4px;letter-spacing: 0;}}
-@media all and (min-width: 400px)  {  body  { font-size:1.0em;  } .navbar-lower-section ul li{padding: 0 4px;letter-spacing: 0;}}
-@media all and (min-width: 500px)  {  body  { font-size:1.4em;  } .navbar-lower-section ul li{padding: 0 4px;letter-spacing: 0;}}
-@media all and (min-width: 600px)  {  body  { font-size:1.4em;  } .navbar-lower-section ul li{padding: 0 6px;letter-spacing: 0;}}
-@media all and (min-width: 700px)  {  
-    body { font-size: 1.5em;  }
-     .navbar-lower-section ul li{padding: 0 4px;letter-spacing: 0;}
-     .navbar-hover-top-section ul li{padding: 0 2px;letter-spacing: 0;}
-    .navbar-hover-top-section{width: 98%; margin-left: 10px;}
-}
-@media all and (min-width: 800px)  {
-    body{ font-size:1.6em;  }
-.navbar-lower-section ul li{padding: 0 8px; letter-spacing: 0;}
-.navbar-hover-top-section ul li{padding: 0 4px;letter-spacing: 0;}
-.navbar-hover-top-section{width: 90%; margin-left: 30px;}
-}
-@media all and (min-width: 900px)  {
-      body{ font-size:1.8em;  }
-      .navbar-hover-top-section ul li{padding: 0 4px;letter-spacing: 0;}
-      .navbar-hover-top-section{width: 90%; margin-left: 30px;}
-}
-@media all and (min-width: 1000px) {  
-    body  { font-size:2.2em;  } 
-    .navbar-lower-section ul li{padding: 0 15px;letter-spacing: 0;}
-    .navbar-hover-top-section ul li{padding: 0 3px;}
-    .navbar-hover-top-section{width: 90%; margin-left: 30px;}
-}
-@media all and (min-width: 1100px) {  body  { font-size:2.2em;  } }
-@media all and (min-width: 1200px) {  body  { font-size:2.4em;  } }
-@media all and (min-width: 1300px) {  body  { font-size:2.6em;  }
-.navbar-lower-section ul li{padding: 0 15px;letter-spacing: 0;}
-.navbar-hover-top-section ul li{padding: 0 8px;}
- }
-@media all and (min-width: 1400px) {  body  { font-size:2.8em;  } }
+@media all and (max-width: 900px) { .navbar-lower-section{font-size: 12px;} .navbar-lower-section ul li{padding:0 2px 0px 6px; }}
+@media (min-width:820px) and (max-width:1020px) {.navbar-lower-section{font-size: 14px;} .navbar-lower-section ul li{padding:0 2px 0px 10px; }}

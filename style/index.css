@@ -169,3 +169,65 @@
     font-size: 14px;
     margin-right: 50px;
 }
+
+/* footer css */
+
+#footer{
+    margin-top: 50px;
+    background-color: rgb(243, 243, 243);
+    padding-top: 30px;
+}
+#footer>div:first-child{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+#footer>div>div:first-child{
+    line-height: 14px;
+    color: black; 
+    
+}
+#footer>div>div:last-child{
+    text-align: center;
+}
+#footer>div>div:last-child>p:first-child{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+#icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}   
+#icons>i{
+    border-radius: 10%;
+    padding: 8px;
+    background-color: rgb(216, 213, 213);
+}
+#copyright{
+    width: 100%;
+    display: block;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgb(225, 220, 220);
+    margin-top: 50px;
+}
+#copyright>p{
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 12px;
+    text-align: center;
+}
+#copyright>p:first-child{
+    text-align: center;
+    font-size: 14px;
+}
+#copyright>p:last-child{
+    color: #fe5c75;
+    font-weight: bold;
+}

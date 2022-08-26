@@ -16,10 +16,11 @@
     inline-size: 100px;
     margin-inline-start: 510px;
     position: relative;
-    left: 100px;
-    height: 2px;
+    left: 90px;
+    top:-10px;
+    height: 3px;
   }
-  #but button {
+  #btn button {
     list-style: none;
     padding: 15px 5px;
     border: 2px solid #fe5c74;
@@ -32,10 +33,14 @@
     font-family: sans-serif;
     background-color: white;
   }
-  #but button:hover {
+  #btn button:hover {
     background-color: #fe5c74;
   
     color: white;
+  }
+  #btn button a{
+   text-decoration: none;
+   color: #212121;
   }
   .grid2 {
     margin-top: 20px;
@@ -86,6 +91,11 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 30px;
+    
+  }
+  .grid3 div{
+    /* border:1px solid red; */
+   
   }
   
   .grid3 div img {
@@ -96,14 +106,21 @@
     text-align: center;
     margin-top: 20px;
   }
+  /* .grid3 div p:nth-child(3){
+    margin-bottom: 0px;
+  } */
   p > a {
     font: 24px Poppins, Poppins-Hindi, sans-serif;
     color: black;
     text-decoration: none;
   }
+  
   .last a{
     font: 16px Poppins, Poppins-Hindi, sans-serif;
     color: #757575;
+    
+   
+
   }
   
   .grid4 {

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="../style/style.css">
   </head>
   <body>
+    <div id="navbar"></div>
     <div class="container">
       <div id="pagelink">
         <p><a href="index.html">Home</a></p>
@@ -26,14 +27,14 @@
       </div>
 
       <div id="but">
-        <button>Bridal Makeup</button>
-        <button>Mehandi Designs</button>
-        <button>Face Makeup</button>
-        <button>Nail Art</button>
-        <button>Lip Make Up</button>
-        <button>Makeup Ideas</button>
-        <button>Celebrity Makeup</button>
-        <button>Eye Make Up</button>
+        <button id="btn1" onclick="b1()">Bridal Makeup</button>
+        <button id="btn2" onclick="b2()">Mehandi Designs</button>
+        <button id="btn3" onclick="b3()">Face Makeup</button>
+        <button id="btn4" onclick="b4()">Nail Art</button>
+        <button id="btn5" onclick="b5()">Lip Make Up</button>
+        <button id="btn6" onclick="b6()">Makeup Ideas</button>
+        <button id="btn7" onclick="b7()">Celebrity Makeup</button>
+        <button id="btn8" onclick="b8()">Eye Make Up</button>
       </div>
       <div class="grid2">
         <div>
@@ -278,5 +279,32 @@
         </div>
       </div>
     </div>
+    <div id="footer"></div>
   </body>
 </html>
+<script>
+  let b1 = () =>{
+    window.location.href = "bridalmakeup.html";
+  }
+  let b2 = () =>{
+    window.location.href = "mehandidesign.html";
+  }
+  let b3 = () =>{
+    window.location.href = "facemakeup.html";
+  }
+  let b4 = () =>{
+    window.location.href = "nailart.html";
+  }
+  let b5 = () =>{
+    window.location.href = "lipmakeup.html";
+  }
+  let b6 = () =>{
+    window.location.href = "makeupideas.html";
+  }
+  let b7 = () =>{
+    window.location.href = "celebritymakeup.html";
+  }
+  let b8 = () =>{
+    window.location.href = "eyemakeup.html";
+  }
+</script>

@@ -1,7 +1,3 @@
-import navbar from "../components/navbar.js";
-document.getElementById('navbar').innerHTML = navbar();
-
-
 
 data.map(function(elem){
 

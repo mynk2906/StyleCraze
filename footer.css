@@ -1,0 +1,23 @@
+.footer ul li{
+    list-style: none;
+}
+.footerUl>div>ul:first-child>li{
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+.social-media-clr{ 
+    background-color: #dedfe1; 
+    padding: 5px 5px;
+}
+.footer-logo-section img{
+    width: 12px;
+}
+.social-media-icon li{
+    display: inline-block;
+    background: #dedfe1;
+    padding: 5px 10px;
+    margin: 0px 10px 10px 0px;
+}
+.copyright-bkg-clr{
+    background-color: #dedfe1;
+}

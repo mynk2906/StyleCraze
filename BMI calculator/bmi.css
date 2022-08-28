@@ -1,0 +1,117 @@
+body{
+    margin-top: 30px;
+}
+#Report{
+    display:grid;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    padding: 35px;
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+#heading > h1 {
+    font-family: sans-serif;
+    font-size: 28px;
+    text-align: center;
+    width: 650px;
+    margin: auto;
+}
+#heading > p {
+    width: 650px;
+    margin: auto;
+    font-family: sans-serif;
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.Head{
+    font-size: 20px;
+    color: rgb(12, 122, 85);
+    text-align: center;
+    margin-top: 30px;
+}
+#weight{
+    font-size: 20px;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    padding: 5px;
+    border: transparent;
+    background-color: #fafafa;
+}
+#height{
+    font-size: 20px;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    padding: 5px;
+    border: transparent;
+    background-color: #fafafa;
+}
+#gender{
+    font-size: 15px;
+    width: 120px;
+    padding: 8px;
+    cursor: pointer;
+}
+#system{
+    font-size: 15px;
+    width: 120px; 
+    position: relative;
+    margin-left: 230px;
+    margin-top: -35px; 
+    cursor: pointer;
+}
+#submit{
+    font-size: 20px;
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #fdc70d;
+    border: transparent;
+    text-transform: uppercase;
+}
+
+#tbody {
+    background-color: transparent;
+    font-size: 100%;
+    vertical-align: baseline;
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+}
+tbody {
+    text-align: center;
+}
+#age {
+    padding: 8px;
+    border: transparent;
+    background-color: #fafafa;
+}
+#result{
+    text-align: center;
+    margin: auto;
+   margin-top: 100px;
+    color: brown;
+    font-weight: bolder;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    font-size: 45px;
+
+}
+#sec-div {
+    margin: auto;
+    text-align: center;
+    width: 550px;
+    line-height: 26px;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 200px;
+}
+#sec-2 {
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}

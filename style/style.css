@@ -12,9 +12,10 @@
     text-align: center;
   }
   #heading hr {
+    position: relative;
     color: #b4172f;
     inline-size: 100px;
-    margin-inline-start: 510px;
+    margin-left: 59 0px;
     height: 3px;
   }
   #but button {

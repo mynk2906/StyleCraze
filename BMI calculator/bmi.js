@@ -29,3 +29,9 @@ result.textContent="You Are "+resultValue
 
 }
 submit.addEventListener("click",calculateBMI)
+
+import {navbar2,navbar2JS} from "../components/navbar2.js";
+document.getElementById('headerSecond').innerHTML=navbar2();
+navbar2JS();
+import footer from "../components/footer.js";
+document.getElementById('footer').innerHTML=footer();	

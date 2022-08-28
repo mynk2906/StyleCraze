@@ -4,10 +4,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/footer.css">	
     <link rel="stylesheet" href="production.css">
+    <link rel="stylesheet" href="/navbar2.css">
 </head>
 <body>
-    <button id="home-btn"><a href="">Home</a></button>
+    
+    <section id="headerSecond"></section>
+    <button id="home-btn"><a href="index.html">Home</a></button>
     <h1 id="title">PRODUCTS</h1>
     <div id="front-banner">
         <div id="img">
@@ -94,6 +99,17 @@
         <button>447</button>
         <button>»</button>
     </div>
+
+    <!-- FOOTER -->
+        <section class="footer" id="footer"></section>
+    <!--  -->
     
 </body>
 </html>
+<script type="module">
+    import footer from "/components/footer.js";
+    import {navbar2,navbar2JS} from "/components/navbar2.js";
+    document.getElementById('footer').innerHTML=footer();
+    document.getElementById('headerSecond').innerHTML=navbar2();
+    navbar2JS();
+</script>

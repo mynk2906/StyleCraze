@@ -4,10 +4,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/footer.css">	
     <link rel="stylesheet" href="production.css">
+    <link rel="stylesheet" href="/navbar2.css">
 </head>
 <body>
-    <button><a href="">Home</a></button>
+    <!-- <button><a href="">Home</a></button> -->
+    <section id="headerSecond"></section>
+
     <h1 id="title">PRODUCTS</h1>
     <div id="front-banner">
         <div id="img"><img src="https://cdn2.stylecraze.com/wp-content/uploads/2022/08/11-Best-Front-Closure-Bras-For-Seniors.jpg.webp" alt=""></div>
@@ -41,6 +46,16 @@
         </div>
     </div>
 
-    
+    <!-- FOOTER -->
+        <section class="footer" id="footer"></section>
+    <!--  -->	
 </body>
 </html>
+<script type="module">
+    import footer from "/components/footer.js";
+    import {navbar2,navbar2JS} from "/components/navbar2.js";
+    document.getElementById('headerSecond').innerHTML=navbar2();
+    navbar2JS();
+    
+    document.getElementById('footer').innerHTML=footer();		
+</script>

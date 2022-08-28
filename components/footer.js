@@ -1,10 +1,10 @@
 let footer = ()=>{
     return`
     <div class="container-fluid">
-        <div class="row">
+        <div class="row bkg-clr">
             <div class="col-lg-11 m-auto">
                 <div class="">
-                    <div class="row bg-white p-5 rounded-3 text-center footerUl">
+                    <div class="row pt-5 pb-4 rounded-3 text-center footerUl">
                       <div class="col-md-3 mb-3">
                         <ul class="text-md-start text-center">
                           <li>About us</li>
@@ -51,7 +51,7 @@ let footer = ()=>{
 
     <div class="text-center copyright-bkg-clr pb-2">
       <div class="w-75 m-auto">
-        <p class="m-1 fs-5">Copyright © 2011 - 2022 <strong class="website-color">IncNut Stylecraze Private Limited.</strong>All rights reserved.</p>
+        <p class="fs-5">Copyright © 2011 - 2022 <strong class="website-color">IncNut Stylecraze Private Limited.</strong>All rights reserved.</p>
         <p class="m-1">StyleCraze provides content of general nature that is designed for informational purposes only. The content is not intended to be a substitute</p>
         <p class="">for professional medical advice, diagnosis, or treatment. <span class="website-color">Click here for additional information.</span></p>
       </div>

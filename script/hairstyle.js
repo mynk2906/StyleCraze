@@ -29,14 +29,9 @@ function showNav(){
   document.getElementById("bar").style.marginTop = "-70px";
 }
 
-// if(clicked%2===0){
-//   document.getElementById("bar").addEventListener("click", function(){
-//     hideNav();
-//   })
-// }
 
-// function hideNav(){
-//   document.getElementById("categories").style.visibility = "hidden";
-// }
+
+		
+
 
 

@@ -4,29 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style/index.css" />
-
+    <link rel="stylesheet" href="/footer.css">
+    <link rel="stylesheet" href="navbar2.css">
     <title>Document</title>
   </head>
-  <body>
+  <body class="">
 
-    <div id="navbar">
-      <img id="logo" src="https://cdn2.stylecraze.com/wp-content/themes/buddyboss-child/images/sc-logo.png"/>
-      <div>
-          <i class="fa-solid fa-bars" id="bar"></i>
-          <div id="categories">
-              <div id="makeupHover">MAKEUP</div>
-              <div id="haircareHover">HAIR CARE</div>
-              <div id="skincareHover">SKIN CARE</div>
-              <div id="hairstylesHover">HAIRSTYLES</div>
-              <div id="healthHover">HEALTH & WELLNESS</div>
-              <div id="newsHover">NEWS</div>
-              <div>TOOLS</div>
-              <div>PRODUCTS</div>
-              <div id="aboutHover">ABOUT US</div>
-          </div>
-      </div> 
-  </div>
+    <section id="headerSecond"></section>
   
     <p id="makeupTitle">SKIN CARE</p>
     <div id="buttons">
@@ -153,6 +139,19 @@
     <p class="author">Medically Reviewed by Dr. Aanand Geria, MD</p>
   </div>
 </div>
+
+  <!-- FOOTER -->
+    <section class="footer" id="footer"></section>
+  <!--  -->
     
   </body>
 </html>
+<script type="module">
+  import footer from "/components/footer.js";
+  import {navbar2,navbar2JS} from "/components/navbar2.js";
+  document.getElementById('headerSecond').innerHTML=navbar2();
+  navbar2JS();
+  
+  document.getElementById('footer').innerHTML=footer();		
+
+</script>

@@ -12,12 +12,19 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="/footer.css">
+    <link rel="stylesheet" href="/navbar2.css">
   </head>
   <body>
+    <section id="headerSecond">
+        
+    </section>
+
+
     <div id="navbar"></div>
     <div class="container">
       <div id="pagelink">
-        <p><a href="index.html">Home</a></p>
+        <p><a href="/index.html">Home</a></p>
         <p>>></p>
         <p><a href="makeup.html">Make Up</a></p>
       </div>
@@ -27,14 +34,14 @@
       </div>
 
       <div id="but">
-        <button id="btn1" onclick="b1()">Bridal Makeup</button>
-        <button id="btn2" onclick="b2()">Mehandi Designs</button>
-        <button id="btn3" onclick="b3()">Face Makeup</button>
-        <button id="btn4" onclick="b4()">Nail Art</button>
-        <button id="btn5" onclick="b5()">Lip Make Up</button>
-        <button id="btn6" onclick="b6()">Makeup Ideas</button>
-        <button id="btn7" onclick="b7()">Celebrity Makeup</button>
-        <button id="btn8" onclick="b8()">Eye Make Up</button>
+        <button id="btn1">Bridal Makeup</button>
+        <button id="btn2">Mehandi Designs</button>
+        <button id="btn3">Face Makeup</button>
+        <button id="btn4">Nail Art</button>
+        <button id="btn5">Lip Make Up</button>
+        <button id="btn6">Makeup Ideas</button>
+        <button id="btn7">Celebrity Makeup</button>
+        <button id="btn8">Eye Make Up</button>
       </div>
       <div class="grid2">
         <div>
@@ -279,32 +286,44 @@
         </div>
       </div>
     </div>
-    <div id="footer"></div>
+    <!-- <div id="footer"></div> -->
+    <!-- FOOTER -->
+    <section class="footer" id="footer"></section>
+    <!--  -->
+
   </body>
 </html>
-<script>
-  let b1 = () =>{
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script type="module">
+  import footer from "/components/footer.js";
+  import {navbar2,navbar2JS} from "/components/navbar2.js";
+  document.getElementById('headerSecond').innerHTML=navbar2();
+  navbar2JS();
+
+  document.getElementById('btn1').addEventListener('click',() =>{
     window.location.href = "bridalmakeup.html";
-  }
-  let b2 = () =>{
+  })
+  document.getElementById('btn2').addEventListener('click',() =>{
     window.location.href = "mehandidesign.html";
-  }
-  let b3 = () =>{
+  })
+  document.getElementById('btn3').addEventListener('click',() =>{
     window.location.href = "facemakeup.html";
-  }
-  let b4 = () =>{
+  })
+  document.getElementById('btn4').addEventListener('click',() =>{
     window.location.href = "nailart.html";
-  }
-  let b5 = () =>{
+  })
+  document.getElementById('btn5').addEventListener('click',() =>{
     window.location.href = "lipmakeup.html";
-  }
-  let b6 = () =>{
+  })
+  document.getElementById('btn6').addEventListener('click',() =>{
     window.location.href = "makeupideas.html";
-  }
-  let b7 = () =>{
+  })
+  document.getElementById('btn7').addEventListener('click',() =>{
     window.location.href = "celebritymakeup.html";
-  }
-  let b8 = () =>{
+  })
+  document.getElementById('btn8').addEventListener('click',() =>{
     window.location.href = "eyemakeup.html";
-  }
+  })
+  
+  document.getElementById('footer').innerHTML=footer();
 </script>

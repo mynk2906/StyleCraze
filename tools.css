@@ -28,7 +28,7 @@
     font-size: 17.8px;
     margin-top: -8px;
 }
-#container{
+#container1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     position: relative;
@@ -37,14 +37,14 @@
     margin-top: -50px;
     width: 1150px;
 }
-#container > div {
+#container1 > div {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
     background-color: white;
     width: 330px;
     cursor: pointer;
     padding: 0px 18px 5px 18px;
 }
-#container > div:hover{
+#container1 > div:hover{
     cursor: pointer;
     background-color: rgb(250, 243, 250);
 }
@@ -56,7 +56,7 @@ button {
     font-size: 16px;
     cursor: pointer;
  }
-#container > div > h2 {
+#container1 > div > h2 {
     font-size: 18px;
     color: #333;
     font-weight: 700;
@@ -64,7 +64,7 @@ button {
     line-height: 25px;
     width: 300px;
 }
-#container > div > p {
+#container1 > div > p {
     color: #727272;
     font-family:  Poppins,sans-serif;
     font-size: 14.4px;
@@ -77,20 +77,20 @@ button {
         margin: 0;
         padding: 0;
     }
-    #container{
+    #container1{
       display: flex;
       flex-direction: column;
         gap: 30px;
         margin: auto;
     }
-    #container > div {
+    #container1 > div {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
     background-color: white;
     width: 1140px;
     cursor: pointer;
     padding: 15px 25px 15px 25px;
 }
-    #container > div > h2 {
+    #container1 > div > h2 {
         font-size: 26px;
         color: #333;
         font-weight: 700;
@@ -99,7 +99,7 @@ button {
         width: 100%;
         word-wrap: normal;
     }
-    #container > div > p {
+    #container1 > div > p {
         color: #727272;
         font-family:  Poppins,sans-serif;
         font-size: 23px;
@@ -179,7 +179,7 @@ button {
         font-size: 13px;
         margin-top: -8px;
     }
-    #container{
+    #container1{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         position: relative;
@@ -187,14 +187,14 @@ button {
         margin-top: -50px;
         width: 700px;
     }
-    #container > div {
+    #container1 > div {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
         background-color: white;
         width: 170px;
         cursor: pointer;
         padding: 0px 18px 5px 18px;
     }
-    #container > div:hover{
+    #container1 > div:hover{
         cursor: pointer;
         background-color: rgb(250, 243, 250);
     }
@@ -206,7 +206,7 @@ button {
         font-size: 16px;
         cursor: pointer;
      }
-    #container > div > h2 {
+    #container1 > div > h2 {
         font-size: 18px;
         color: #333;
         font-weight: 700;
@@ -214,7 +214,7 @@ button {
         line-height: 25px;
         width: 170px;
     }
-    #container > div > p {
+    #container1 > div > p {
         color: #727272;
         font-family:  Poppins,sans-serif;
         font-size: 14.4px;

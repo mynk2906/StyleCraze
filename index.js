@@ -24,6 +24,18 @@ document.getElementById('front-end-lower-section').addEventListener('mouseover',
 
     document.getElementById('navbar-hover-section').innerHTML=null;
 })
+document.getElementById('navbar-tools').addEventListener('mouseover',()=>{
+
+    document.getElementById('navbar-hover-section').innerHTML=null;
+})
+document.getElementById('navbar-products').addEventListener('mouseover',()=>{
+
+    document.getElementById('navbar-hover-section').innerHTML=null;
+})
+document.getElementById('navbar-about').addEventListener('mouseover',()=>{
+
+    document.getElementById('navbar-hover-section').innerHTML=null;
+})
 
 document.getElementById('navbar-hair-color').addEventListener('mousemove',()=>{
     let images=[];
@@ -124,3 +136,12 @@ let healthWellness = ()=>{
 healthWellness();
 
 document.getElementById('footer').innerHTML=footer();
+
+document.getElementById('icon').addEventListener('click',()=>{
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+})

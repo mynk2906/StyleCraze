@@ -12,12 +12,15 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="/footer.css">
+    <link rel="stylesheet" href="/navbar2.css">
   </head>
   <body>
-    <div id="navbar"></div>
+    <section id="headerSecond"></section>
+    
     <div class="container">
       <div id="pagelink">
-        <p><a href="index.html">Home</a></p>
+        <p><a href="/index.html">Home</a></p>
         <p>>></p>
         <p><a href="haircare.html">Hair Care</a></p>
         <p>>></p>
@@ -267,6 +270,17 @@
         </div>
       </div>
     </div>
-    <div id="footer"></div>
-  </body>
+    <!-- <div id="footer"></div> -->
+  <!-- FOOTER -->
+  <section class="footer" id="footer"></section>
+  <!--  -->
+</body>
 </html>
+<script type="module">
+  import footer from "/components/footer.js";
+  import {navbar2,navbar2JS} from "/components/navbar2.js";
+  document.getElementById('headerSecond').innerHTML=navbar2();
+  navbar2JS();
+  
+  document.getElementById('footer').innerHTML=footer();
+</script>

@@ -63,10 +63,11 @@ svg{
     display: inline-block;
 }   
 .navbar-lower-section{
-    /* text-align: end; */
     cursor: pointer;
-    /* text-align: center; */
-    
+}
+.navbar-lower-section a{
+    text-decoration: none;
+    color: black;
 }
 .navbar-hover-top-section{
     /* border: 1px solid; */
@@ -86,7 +87,6 @@ svg{
 #navbar-hover-section{
     border: 1px solid white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    background-color: #f5f5f5;  
 }
 
 
@@ -165,6 +165,17 @@ svg{
     background-color: white;
     z-index: 1 !important;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+#myLinks{
+    display: none;
 }
 
 @media all and (max-width: 900px) { .navbar-lower-section{font-size: 12px;} .navbar-lower-section ul li{padding:0 2px 0px 6px; }}

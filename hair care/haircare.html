@@ -12,12 +12,15 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="/footer.css">
+    <link rel="stylesheet" href="/navbar2.css">
   </head>
   <body>
-    <div id="navbar"></div>
+    <section id="headerSecond"></section>
+    
     <div class="container">
       <div id="pagelink">
-        <p><a href="index.html">Home</a></p>
+        <p><a href="/index.html">Home</a></p>
         <p>>></p>
         <p><a href="haircare.html">Hair Care</a></p>
       </div>
@@ -273,32 +276,42 @@
         </div>
       </div>
     </div>
-    <div id="footer"></div>
+    <!-- <div id="footer"></div> -->
+    <!-- FOOTER -->
+    <section class="footer" id="footer"></section>
+    <!--  -->
   </body>
 </html>
-<script>
-  let b1 = () =>{
+<script type="module">
+  import footer from "/components/footer.js";
+  import {navbar2,navbar2JS} from "/components/navbar2.js";
+  document.getElementById('headerSecond').innerHTML=navbar2();
+  navbar2JS();
+  
+  document.getElementById('footer').innerHTML=footer();
+  
+  document.getElementById('btn1').addEventListener('click',() =>{
     window.location.href = "dryhaircare.html";
-  }
-  let b2 = () =>{
+  })
+  document.getElementById('btn2').addEventListener('click',() =>{
     window.location.href = "haircaresolutions.html";
-  }
-  let b3 = () =>{
+  })
+  document.getElementById('btn3').addEventListener('click',() =>{
     window.location.href = "dandruff.html";
-  }
-  let b4 = () =>{
+  })
+  document.getElementById('btn4').addEventListener('click',() =>{
     window.location.href = "hairtreatment.html";
-  }
-  let b5 = () =>{
+  })
+  document.getElementById('btn5').addEventListener('click',() =>{
     window.location.href = "basichaircare.html";
-  }
-  let b6 = () =>{
+  })
+  document.getElementById('btn6').addEventListener('click',() =>{
     window.location.href = "hairfall.html";
-  }
-  let b7 = () =>{
+  })
+  document.getElementById('btn7').addEventListener('click',() =>{
     window.location.href = "haircareideas.html";
-  }
-  let b8 = () =>{
+  })
+  document.getElementById('btn8').addEventListener('click',() =>{
     window.location.href = "haircolour.html";
-  }
+  })
 </script>

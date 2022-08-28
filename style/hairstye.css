@@ -1,65 +1,14 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-#navbar{
-    width: 100%;
-    margin: auto;
-    position: fixed;
-    top:0;
-    padding-bottom: 10px;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-}
-#logo{
-    display: flex;
-    justify-content: center;
-    margin-left: 39%;
-    margin-bottom: 15px;
-    margin-top: 10px;
-}
-#logo+div{
-    display: flex;
-    align-items: center;
-}
-#bar{
-    height: 50px;
-    width: 50px;
-    color: #fe5c75;
-    background: rgb(255, 255, 175);
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10%;
-    margin-left: 100px;
-    cursor: pointer;
-    margin-top: -90px;
-}
-#bar+#categories{
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-    font-size: 18px;
-    visibility: hidden;
-}
-#categories>div{
-    border-right: 2px solid #fe5c75;
-    box-sizing: border-box;
-    padding-right: 10px;
-}
-#categories>div:hover{
-    cursor: pointer;
-    color:#fe5c75;
-}
-#categories>div:last-child{
-    border-right: 0;
-}
+
+
 #makeupTitle{
     text-align: center;
     text-decoration: underline;
     text-decoration-color: #fe5c75;
     font-size: 34px;
-    margin-top: 150px;
+    margin-top: 20px;
 }
 #buttons{
     width: 70%;

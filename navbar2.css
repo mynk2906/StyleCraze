@@ -1,0 +1,36 @@
+svg{
+    vertical-align: top;
+    width: 35px;
+    height: 33px;
+    color: red;
+}
+#myLink1{
+    display: block;
+}
+#myLinks2{
+    display: none;
+}
+.navbar-lower-section ul li:first-child{
+    border-left: none;
+}
+.navbar-lower-section ul li{
+    border-left: 1px solid red;
+    padding:0 15px;
+    font-weight: 500;
+    list-style: none;
+    display: inline-block;
+}   
+.navbar-lower-section{
+    cursor: pointer;
+}
+.navbar-lower-section a{
+    text-decoration: none;
+    color: black;
+}
+#headerSecond{
+    position: sticky;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 1;
+    top: 0;
+    background-color: white;
+}
